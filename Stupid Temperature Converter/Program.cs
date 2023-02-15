@@ -3,7 +3,5 @@
 
 // This is a dumb temperature converter. You should make yourself a smart one.
 int fahrenheit = 94;
-int mid = fahrenheit - 32;
-
-int celsuis = (fahrenheit - 32) * 5 / 9;
-Console.WriteLine($@"The temperature is {celsuis} Celsuis.");
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is " + celsius + " Celsius.");
